@@ -1,0 +1,85 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Screens": [
+        "app/screens"
+      ],
+      "@Components": [
+        "./app/components"
+      ],
+      "@I18n": [
+        "./app/i18n"
+      ],
+      "@Models": [
+        "./app/models"
+      ],
+      "@Navigators": [
+        "./app/navigators"
+      ],
+      "@Api": [
+        "./app/services/api"
+      ],
+      "@Native/*": [
+        "./app/services/native/*"
+      ],
+      "@NativeModule": [
+        "./app/native-module"
+      ],
+      "@NativeModule/*": [
+        "./app/native-module/*"
+      ],
+      "@Source": [
+        "./app/source"
+      ],
+      "@Source/*": [
+        "./app/source/*"
+      ],
+      "@Theme": [
+        "./app/theme"
+      ],
+      "@Utils": [
+        "./app/utils"
+      ],
+      "@Utils/*": [
+        "./app/utils/*"
+      ],
+      "@Assets/*": [
+        "./app/assets/*"
+      ],
+      "@Assets": [
+        "./app/assets"
+      ],
+      "@Hooks": [
+        "./app/hooks"
+      ],
+      "@Libs":[
+        "./app/libs"
+      ],
+      "@Types":[
+        "./app/types"
+      ],
+      "@Constants": [
+        "./app/constants"
+      ]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["index.js", "App.js", "app", "test"],
+  "extends": "expo/tsconfig.base"
+}

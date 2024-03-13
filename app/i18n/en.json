@@ -1,0 +1,20 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "success": {
+    "addCreditCard": "Add credit card successfully"
+  },
+  "errors": {
+    "EUA000": "A system error has occurred. Please contact the site administrator.",
+    "EUA001_002": "Please enter a valid email address",
+    "EUA001_003": "Please enter your password",
+    "EUA001_004": "Invalid password",
+    "invalidCardNumber": "Credit Card number is invalid",
+    "invalidExpiredDate": "Expiration date is invalid. Example: YY/MM",
+    "invalidCVV": "CVV is invalid",
+    "invalidCardHolderName": "Card Holder is invalid"
+  }
+}
